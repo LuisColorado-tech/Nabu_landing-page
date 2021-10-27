@@ -101,7 +101,6 @@ header .social-info li a:hover {
 #banner .app-img {
   padding-top: 10px;
   object-fit: contain;
-  height: 432px;
   display: block;
   margin: auto;
 }
@@ -136,8 +135,13 @@ header .social-info li a:hover {
   margin-right: 10px;
   font-size: 20px;
 }
+
+#banner .block .download-btn li:nth-child(0){
+  margin: 0px 28px;
+}
+
 #banner .block .download-btn li .btn-apple {
-  background: #7ec6d1;
+  background: #036787;
   border: 1px solid transparent;
   -webkit-transition: .2s all;
   -o-transition: .2s all;
@@ -207,7 +211,7 @@ header .social-info li a:hover {
   text-align: center;
   -webkit-transition: .2s all;
   -o-transition: .2s all;
-  transition: .2s all;
+  transition: 0.5s all-ease-in-out;
 }
 #service .block i {
   font-size: 25px;
