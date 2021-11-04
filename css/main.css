@@ -390,3 +390,57 @@ footer p {
   margin-top: 10px;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 800px){
+
+  .adjus_rd_scl_mbl{
+      position: absolute;
+      top: 16px;
+      right: 59px;
+  }
+
+  #service{
+    padding: 0px !important;
+  }
+
+  #banner{
+    padding: 8px 0px !important;
+  }
+
+  #banner h1 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 42px !important;
+  }
+
+  #banner .block h1 {
+    font-size: 33px;
+    line-height: 32px !important;
+}
+  #banner .block p {
+      line-height: 19px;
+      font-size: 20px;
+      color: #999;
+      font-weight: 300;
+      text-align: justify;
+      padding: 0px 8px;
+      margin: 12px 0px;
+  }
+
+  #banner .block .download-btn li {
+      width: 100%;
+      margin-bottom: 5px;
+      margin: 8px 0px;
+  }
+
+  #service .service-wrapper {
+      margin: 0px;
+      padding: 12px 0px !important;
+  }
+
+  .s3_prsnttn {
+      padding: 128px 0px;
+      padding: 8px 20px;
+  }
+
+}
