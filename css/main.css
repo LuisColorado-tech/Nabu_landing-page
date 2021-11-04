@@ -46,10 +46,28 @@ ul li {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 200;
   color: #666;
-  padding: 5px 15px;
+  padding: 0px;
+  transition: all 0.5s ease-in-out !important;
+  position: relative;
+  margin: 12px 12px;
+}
+
+.menu .navbar-default .navbar-nav > li > a:before{
+  position: absolute;
+  content: "";
+  background-color: #666;
+  width: 0%;
+  height: 1px;
+  bottom: 0px;
+  left: 0px;
+  transition: all 0.5s ease-in-out !important;
 }
 .menu .navbar-default .navbar-nav > li > a:hover {
   color: #f48e5c;
+}
+
+.menu .navbar-default .navbar-nav > li > a:hover:before{
+  width: 100%;
 }
 .menu .navbar-nav {
   float: none;
@@ -127,7 +145,7 @@ header .social-info li a:hover {
 #banner .block .download-btn li a {
   color: #fff;
   border: none;
-  border-radius: 0;
+  border-radius: 8px;
   padding: 10px 28px 13px;
   font-size: 18px;
 }
@@ -143,21 +161,21 @@ header .social-info li a:hover {
 #banner .block .download-btn li .btn-apple {
   background: #036787;
   border: 1px solid transparent;
-  -webkit-transition: .2s all;
-  -o-transition: .2s all;
-  transition: .2s all;
+  -webkit-transition: all 0.5s ease-in-out !important;
+  -o-transition:all 0.5s ease-in-out !important;
+  transition: all 0.5s ease-in-out !important;
 }
 #banner .block .download-btn li .btn-apple:hover {
-  color: #7ec6d1;
+  color: #026687;
   background: #fff;
   border: 1px solid #7ec6d1;
 }
 #banner .block .download-btn li .btn-andriod {
-  background: #026687;
+  background: #036787;
   border: 1px solid transparent;
-  -webkit-transition: .2s all;
-  -o-transition: .2s all;
-  transition: .2s all;
+  -webkit-transition: all 0.5s ease-in-out !important;
+  -o-transition: all 05s ease-in-out !important;
+  transition: all 0.5s ease-in-out !important;
 }
 #banner .block .download-btn li .btn-andriod:hover {
   color: #026687;
@@ -201,6 +219,8 @@ header .social-info li a:hover {
   -webkit-box-shadow: 0 0 0px 2px #026687;
   -moz-box-shadow: 0 0 0px 2px #026687;
   box-shadow: 0 0 0px 2px #026687;
+  transition: all 0.5s ease-in-out;
+  animation-delay: 0s !important;
 }
 #service .block .icon {
   width: 90px;
@@ -212,6 +232,7 @@ header .social-info li a:hover {
   -webkit-transition: .2s all;
   -o-transition: .2s all;
   transition: 0.5s all-ease-in-out;
+  animation-delay: 0s !important;
 }
 #service .block i {
   font-size: 25px;
